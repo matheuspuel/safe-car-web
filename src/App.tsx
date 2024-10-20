@@ -8,19 +8,22 @@ function App() {
   return <RouterProvider router={router} />;
 }
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <HomeView />,
-  },
-  {
-    path: "/search",
-    element: <SearchView />,
-  },
-  {
-    path: "/subscribe",
-    element: <SubscribeView />,
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <HomeView />,
+    },
+    {
+      path: "/search",
+      element: <SearchView />,
+    },
+    {
+      path: "/subscribe",
+      element: <SubscribeView />,
+    },
+  ],
+  { basename: import.meta.env.BASE_URL }
+);
 
 export default App;
