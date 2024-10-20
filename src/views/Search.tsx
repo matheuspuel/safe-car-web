@@ -91,7 +91,11 @@ export const SearchView = () => {
           <button onClick={() => setState({ tag: "macaco" })}>Sim</button>
         </div>
         <div>
-          <button onClick={() => setState({ tag: "location" })}>Não</button>
+          <button
+            onClick={() => setState({ tag: "location", type: "borracharia" })}
+          >
+            Não
+          </button>
         </div>
       </div>
     );
