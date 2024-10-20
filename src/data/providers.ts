@@ -113,7 +113,7 @@ export const providers = [
   },
   {
     name: "Tolotti Auto Centro",
-    city: "example",
+    city: "Chapecó",
     phone: "(48) 99999-9999",
     stars: 5,
     image: "tolotti.jpg",
@@ -121,7 +121,7 @@ export const providers = [
   },
   {
     name: "Mecânica Imola",
-    city: "example",
+    city: "Nova Trento",
     phone: "(48) 99999-9999",
     stars: 5,
     image: "imola.jpg",

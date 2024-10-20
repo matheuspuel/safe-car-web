@@ -86,7 +86,27 @@ export const SearchView = () => {
   if (state.tag === "estepe-true") {
     return (
       <div style={{ display: "flex", flexDirection: "column", gap: 32 }}>
-        <div>Possui macaco?</div>
+        <div>Possui macaco, chave de roda e triângulo?</div>
+        <div style={{ display: "flex", gap: 8 }}>
+          <img
+            src="img/macaco.jpg"
+            height={100}
+            width={100}
+            style={{ objectFit: "cover" }}
+          />
+          <img
+            src="img/chave-roda.webp"
+            height={100}
+            width={100}
+            style={{ objectFit: "cover" }}
+          />
+          <img
+            src="img/triangulo.jpg"
+            height={100}
+            width={100}
+            style={{ objectFit: "cover" }}
+          />
+        </div>
         <div>
           <button onClick={() => setState({ tag: "macaco" })}>Sim</button>
         </div>
